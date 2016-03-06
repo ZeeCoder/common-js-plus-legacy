@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A "legacy" app</title>
+</head>
+<body>
+
+    <p>
+        Look at the console.
+    </p>
+
+    <!-- Including dependencies in the right order. -->
+    <script src="js/dep_dependency.js"></script>
+    <script src="js/dependency.js"></script>
+
+    <!-- Including and running the entry javascript. -->
+    <script src="js/entry.js"></script>
+    <script>
+        entry.run();
+    </script>
+
+</body>
+</html>
